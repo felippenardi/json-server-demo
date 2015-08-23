@@ -55,18 +55,21 @@
     var service = {};
 
     service.index = function () {
+      debugger;
       return $http.get('/users/').then(function(response) {
         return response.data;
       });
     };
 
     service.add = function (user) {
+      debugger;
       return $http.post('/users/', user).then(function(response) {
-        return response.data;  
+        return response.data;
       });
     };
 
     service.remove = function(user) {
+      debugger;
       return $http.delete('/users/'+user.id);
     };
 
