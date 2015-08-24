@@ -1,0 +1,22 @@
+body {
+  background-color: #f5f8fa;
+}
+
+.user {
+  margin-top: 20px;
+  padding: 10px 0px;
+  background: #fff;
+  border: 1px solid #e1e8ed;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+} 
+
+.user__name {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.user__remove {
+  margin-top: 20px;
+}
